@@ -133,7 +133,7 @@ if __name__ == "__main__":
 
         elif 'play music' in query:
             subprocess.call(
-                ["afplay", "/Users/devangpandey/Desktop/Alexis/Humdard.mp3"])
+                ["afplay", "/path.mp3"])
 
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")  

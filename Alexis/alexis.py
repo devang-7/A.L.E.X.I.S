@@ -88,18 +88,18 @@ def emailMessage(content, to):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('testingsharma78@gmail.com', 'tanvos-duxPe0-dubzew')
-    server.sendmail('testingsharma78@gmail.com', to, content)
+    server.login('##############', '##############')
+    server.sendmail('##############@##.com', to, content)
     server.close()
     
 
 list = []
 
 
-contacts = {"father":"pcpandey1965@gmail.com",
-            "friend1":"satyam2507mishra@gmail.com",
-            "friend2":"rahulrana@outlook.com",
-            "myself": "jjustin.john98@gmail.com"}
+contacts = {"father":"##############.com",
+            "friend1":"##############.com",
+            "friend2":"##############.com",
+            "myself": "##############.com"}
 
 if __name__ == "__main__":
     wishMe()
@@ -145,7 +145,7 @@ if __name__ == "__main__":
 
         elif 'play music' in query:
             subprocess.call(
-                ["afplay", "/Users/devangpandey/Desktop/Alexis/Humdard.mp3"])
+                ["afplay", "/Users/Alexis/##############.mp3"])                             #Update as per your directory
 
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")  

@@ -88,18 +88,17 @@ def emailMessage(content, to):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('testingsharma78@gmail.com', 'tanvos-duxPe0-dubzew')
-    server.sendmail('testingsharma78@gmail.com', to, content)
+    server.login('######', '#########')
+    server.sendmail('#########', to, content)
     server.close()
     
 
 list = []
 
 
-contacts = {"father":"pcpandey1965@gmail.com",
-            "friend1":"satyam2507mishra@gmail.com",
-            "friend2":"rahulrana@outlook.com",
-            "myself": "jjustin.john98@gmail.com"}
+contacts = {"friend1":"#########@gmail.com",
+            "friend2":"#########@outlook.com",
+            "myself": "#########"}
 
 if __name__ == "__main__":
     wishMe()
@@ -227,13 +226,7 @@ if __name__ == "__main__":
                 
                 print ("A.L.E.X.I.S: " + response)
                 speak(response) 
-                
-        
-        # speak("Do you want me to do anything else?")
-        # answer = takeCommand()
-        # if 'no' in answer:
-        #     speak("See you later gater")
-        #     flag = 0              
+                   
                           
                     
                 
